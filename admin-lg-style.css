@@ -7,7 +7,6 @@ body {
     align-items: center;
     height: 100vh;
 }
-
 .login-container {
     background: #ffffff;
     border-radius: 10px;
@@ -17,25 +16,21 @@ body {
     width: 100%;
     text-align: center;
 }
-
 h1 {
     margin-bottom: 20px;
     font-size: 24px;
     color: #333333;
 }
-
 .input-group {
     margin-bottom: 15px;
     text-align: left;
 }
-
 .input-group label {
     display: block;
     margin-bottom: 5px;
     font-size: 14px;
     color: #555555;
 }
-
 .input-group input {
     width: 100%;
     padding: 10px;
@@ -43,7 +38,6 @@ h1 {
     border-radius: 5px;
     font-size: 14px;
 }
-
 .login-button {
     width: 100%;
     padding: 10px;
@@ -54,7 +48,6 @@ h1 {
     font-size: 16px;
     cursor: pointer;
 }
-
 .login-button:hover {
     background: #0056b3;
 }
