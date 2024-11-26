@@ -1,0 +1,49 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+}
+
+.sidebar {
+    height: 100vh; 
+    width: 250px; 
+    background-color: #7a7848;
+    color: white;
+    position: fixed; 
+    padding: 20px;
+}
+
+.sidebar h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    background-color: #34495e;
+    border-radius: 5px;
+}
+
+.sidebar ul li a:hover {
+    background-color: #1abc9c;
+}
+
